@@ -1665,13 +1665,13 @@
       ]
     },
     {
-      "Route": "_framework/GamePadCMS_Website.6a5ywfnjmr.wasm",
-      "AssetFile": "_framework/GamePadCMS_Website.6a5ywfnjmr.wasm.br",
+      "Route": "_framework/GamePadCMS_Website.4xm1t2msur.wasm",
+      "AssetFile": "_framework/GamePadCMS_Website.4xm1t2msur.wasm.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000081254571"
+          "Quality": "0.000081096424"
         }
       ],
       "ResponseHeaders": [
@@ -1689,7 +1689,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12306"
+          "Value": "12330"
         },
         {
           "Name": "Content-Type",
@@ -1697,15 +1697,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LZcp1va6SKYYKxzjvHl4MMDBcLG5jrK1d+hdJtMs1sY=\""
+          "Value": "\"Tm8L5ta0AcK4ohOFVJ35fLgzncJBYkORbiLjmLfgVYw=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"PjvHhn+y4ucjsDrvVZE3JPpabsvvDN4blyfLDcsgDCo=\""
+          "Value": "W/\"uPDt1E33ly2bp1TwDwPIvYmk+zZaIja7PkWz/ajdSP4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Feb 2026 01:40:01 GMT"
+          "Value": "Sat, 14 Feb 2026 02:06:31 GMT"
         },
         {
           "Name": "Vary",
@@ -1715,11 +1715,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6a5ywfnjmr"
+          "Value": "4xm1t2msur"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PjvHhn+y4ucjsDrvVZE3JPpabsvvDN4blyfLDcsgDCo="
+          "Value": "sha256-uPDt1E33ly2bp1TwDwPIvYmk+zZaIja7PkWz/ajdSP4="
         },
         {
           "Name": "label",
@@ -1728,13 +1728,13 @@
       ]
     },
     {
-      "Route": "_framework/GamePadCMS_Website.6a5ywfnjmr.wasm",
-      "AssetFile": "_framework/GamePadCMS_Website.6a5ywfnjmr.wasm.gz",
+      "Route": "_framework/GamePadCMS_Website.4xm1t2msur.wasm",
+      "AssetFile": "_framework/GamePadCMS_Website.4xm1t2msur.wasm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000070932047"
+          "Quality": "0.000070906899"
         }
       ],
       "ResponseHeaders": [
@@ -1752,7 +1752,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14097"
+          "Value": "14102"
         },
         {
           "Name": "Content-Type",
@@ -1760,15 +1760,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QFbtus7WW3YL+FDpsCNCa7fbdBl3WYf1h6MzslfePzE=\""
+          "Value": "\"d4YcPVq5zaQsBDk2V7ysyH6MziqHgHVbiAdhTN3hRgE=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"PjvHhn+y4ucjsDrvVZE3JPpabsvvDN4blyfLDcsgDCo=\""
+          "Value": "W/\"uPDt1E33ly2bp1TwDwPIvYmk+zZaIja7PkWz/ajdSP4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Feb 2026 01:40:01 GMT"
+          "Value": "Sat, 14 Feb 2026 02:06:31 GMT"
         },
         {
           "Name": "Vary",
@@ -1778,11 +1778,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6a5ywfnjmr"
+          "Value": "4xm1t2msur"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PjvHhn+y4ucjsDrvVZE3JPpabsvvDN4blyfLDcsgDCo="
+          "Value": "sha256-uPDt1E33ly2bp1TwDwPIvYmk+zZaIja7PkWz/ajdSP4="
         },
         {
           "Name": "label",
@@ -1791,8 +1791,8 @@
       ]
     },
     {
-      "Route": "_framework/GamePadCMS_Website.6a5ywfnjmr.wasm",
-      "AssetFile": "_framework/GamePadCMS_Website.6a5ywfnjmr.wasm",
+      "Route": "_framework/GamePadCMS_Website.4xm1t2msur.wasm",
+      "AssetFile": "_framework/GamePadCMS_Website.4xm1t2msur.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1813,21 +1813,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PjvHhn+y4ucjsDrvVZE3JPpabsvvDN4blyfLDcsgDCo=\""
+          "Value": "\"uPDt1E33ly2bp1TwDwPIvYmk+zZaIja7PkWz/ajdSP4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Feb 2026 01:40:01 GMT"
+          "Value": "Sat, 14 Feb 2026 02:06:31 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6a5ywfnjmr"
+          "Value": "4xm1t2msur"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PjvHhn+y4ucjsDrvVZE3JPpabsvvDN4blyfLDcsgDCo="
+          "Value": "sha256-uPDt1E33ly2bp1TwDwPIvYmk+zZaIja7PkWz/ajdSP4="
         },
         {
           "Name": "label",
@@ -1836,8 +1836,8 @@
       ]
     },
     {
-      "Route": "_framework/GamePadCMS_Website.6a5ywfnjmr.wasm.br",
-      "AssetFile": "_framework/GamePadCMS_Website.6a5ywfnjmr.wasm.br",
+      "Route": "_framework/GamePadCMS_Website.4xm1t2msur.wasm.br",
+      "AssetFile": "_framework/GamePadCMS_Website.4xm1t2msur.wasm.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1854,7 +1854,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12306"
+          "Value": "12330"
         },
         {
           "Name": "Content-Type",
@@ -1862,11 +1862,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LZcp1va6SKYYKxzjvHl4MMDBcLG5jrK1d+hdJtMs1sY=\""
+          "Value": "\"Tm8L5ta0AcK4ohOFVJ35fLgzncJBYkORbiLjmLfgVYw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Feb 2026 01:40:01 GMT"
+          "Value": "Sat, 14 Feb 2026 02:06:31 GMT"
         },
         {
           "Name": "Vary",
@@ -1876,11 +1876,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6a5ywfnjmr"
+          "Value": "4xm1t2msur"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-LZcp1va6SKYYKxzjvHl4MMDBcLG5jrK1d+hdJtMs1sY="
+          "Value": "sha256-Tm8L5ta0AcK4ohOFVJ35fLgzncJBYkORbiLjmLfgVYw="
         },
         {
           "Name": "label",
@@ -1889,8 +1889,8 @@
       ]
     },
     {
-      "Route": "_framework/GamePadCMS_Website.6a5ywfnjmr.wasm.gz",
-      "AssetFile": "_framework/GamePadCMS_Website.6a5ywfnjmr.wasm.gz",
+      "Route": "_framework/GamePadCMS_Website.4xm1t2msur.wasm.gz",
+      "AssetFile": "_framework/GamePadCMS_Website.4xm1t2msur.wasm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1907,7 +1907,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14097"
+          "Value": "14102"
         },
         {
           "Name": "Content-Type",
@@ -1915,11 +1915,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QFbtus7WW3YL+FDpsCNCa7fbdBl3WYf1h6MzslfePzE=\""
+          "Value": "\"d4YcPVq5zaQsBDk2V7ysyH6MziqHgHVbiAdhTN3hRgE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Feb 2026 01:40:01 GMT"
+          "Value": "Sat, 14 Feb 2026 02:06:31 GMT"
         },
         {
           "Name": "Vary",
@@ -1929,11 +1929,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6a5ywfnjmr"
+          "Value": "4xm1t2msur"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-QFbtus7WW3YL+FDpsCNCa7fbdBl3WYf1h6MzslfePzE="
+          "Value": "sha256-d4YcPVq5zaQsBDk2V7ysyH6MziqHgHVbiAdhTN3hRgE="
         },
         {
           "Name": "label",
@@ -1943,12 +1943,12 @@
     },
     {
       "Route": "_framework/GamePadCMS_Website.wasm",
-      "AssetFile": "_framework/GamePadCMS_Website.6a5ywfnjmr.wasm.br",
+      "AssetFile": "_framework/GamePadCMS_Website.4xm1t2msur.wasm.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000081254571"
+          "Quality": "0.000081096424"
         }
       ],
       "ResponseHeaders": [
@@ -1966,7 +1966,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12306"
+          "Value": "12330"
         },
         {
           "Name": "Content-Type",
@@ -1974,15 +1974,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LZcp1va6SKYYKxzjvHl4MMDBcLG5jrK1d+hdJtMs1sY=\""
+          "Value": "\"Tm8L5ta0AcK4ohOFVJ35fLgzncJBYkORbiLjmLfgVYw=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"PjvHhn+y4ucjsDrvVZE3JPpabsvvDN4blyfLDcsgDCo=\""
+          "Value": "W/\"uPDt1E33ly2bp1TwDwPIvYmk+zZaIja7PkWz/ajdSP4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Feb 2026 01:40:01 GMT"
+          "Value": "Sat, 14 Feb 2026 02:06:31 GMT"
         },
         {
           "Name": "Vary",
@@ -1992,18 +1992,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PjvHhn+y4ucjsDrvVZE3JPpabsvvDN4blyfLDcsgDCo="
+          "Value": "sha256-uPDt1E33ly2bp1TwDwPIvYmk+zZaIja7PkWz/ajdSP4="
         }
       ]
     },
     {
       "Route": "_framework/GamePadCMS_Website.wasm",
-      "AssetFile": "_framework/GamePadCMS_Website.6a5ywfnjmr.wasm.gz",
+      "AssetFile": "_framework/GamePadCMS_Website.4xm1t2msur.wasm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000070932047"
+          "Quality": "0.000070906899"
         }
       ],
       "ResponseHeaders": [
@@ -2021,7 +2021,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14097"
+          "Value": "14102"
         },
         {
           "Name": "Content-Type",
@@ -2029,15 +2029,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QFbtus7WW3YL+FDpsCNCa7fbdBl3WYf1h6MzslfePzE=\""
+          "Value": "\"d4YcPVq5zaQsBDk2V7ysyH6MziqHgHVbiAdhTN3hRgE=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"PjvHhn+y4ucjsDrvVZE3JPpabsvvDN4blyfLDcsgDCo=\""
+          "Value": "W/\"uPDt1E33ly2bp1TwDwPIvYmk+zZaIja7PkWz/ajdSP4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Feb 2026 01:40:01 GMT"
+          "Value": "Sat, 14 Feb 2026 02:06:31 GMT"
         },
         {
           "Name": "Vary",
@@ -2047,13 +2047,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PjvHhn+y4ucjsDrvVZE3JPpabsvvDN4blyfLDcsgDCo="
+          "Value": "sha256-uPDt1E33ly2bp1TwDwPIvYmk+zZaIja7PkWz/ajdSP4="
         }
       ]
     },
     {
       "Route": "_framework/GamePadCMS_Website.wasm",
-      "AssetFile": "_framework/GamePadCMS_Website.6a5ywfnjmr.wasm",
+      "AssetFile": "_framework/GamePadCMS_Website.4xm1t2msur.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2074,23 +2074,23 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PjvHhn+y4ucjsDrvVZE3JPpabsvvDN4blyfLDcsgDCo=\""
+          "Value": "\"uPDt1E33ly2bp1TwDwPIvYmk+zZaIja7PkWz/ajdSP4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Feb 2026 01:40:01 GMT"
+          "Value": "Sat, 14 Feb 2026 02:06:31 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PjvHhn+y4ucjsDrvVZE3JPpabsvvDN4blyfLDcsgDCo="
+          "Value": "sha256-uPDt1E33ly2bp1TwDwPIvYmk+zZaIja7PkWz/ajdSP4="
         }
       ]
     },
     {
       "Route": "_framework/GamePadCMS_Website.wasm.br",
-      "AssetFile": "_framework/GamePadCMS_Website.6a5ywfnjmr.wasm.br",
+      "AssetFile": "_framework/GamePadCMS_Website.4xm1t2msur.wasm.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2107,7 +2107,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12306"
+          "Value": "12330"
         },
         {
           "Name": "Content-Type",
@@ -2115,11 +2115,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LZcp1va6SKYYKxzjvHl4MMDBcLG5jrK1d+hdJtMs1sY=\""
+          "Value": "\"Tm8L5ta0AcK4ohOFVJ35fLgzncJBYkORbiLjmLfgVYw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Feb 2026 01:40:01 GMT"
+          "Value": "Sat, 14 Feb 2026 02:06:31 GMT"
         },
         {
           "Name": "Vary",
@@ -2129,13 +2129,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-LZcp1va6SKYYKxzjvHl4MMDBcLG5jrK1d+hdJtMs1sY="
+          "Value": "sha256-Tm8L5ta0AcK4ohOFVJ35fLgzncJBYkORbiLjmLfgVYw="
         }
       ]
     },
     {
       "Route": "_framework/GamePadCMS_Website.wasm.gz",
-      "AssetFile": "_framework/GamePadCMS_Website.6a5ywfnjmr.wasm.gz",
+      "AssetFile": "_framework/GamePadCMS_Website.4xm1t2msur.wasm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2152,7 +2152,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14097"
+          "Value": "14102"
         },
         {
           "Name": "Content-Type",
@@ -2160,11 +2160,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QFbtus7WW3YL+FDpsCNCa7fbdBl3WYf1h6MzslfePzE=\""
+          "Value": "\"d4YcPVq5zaQsBDk2V7ysyH6MziqHgHVbiAdhTN3hRgE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Feb 2026 01:40:01 GMT"
+          "Value": "Sat, 14 Feb 2026 02:06:31 GMT"
         },
         {
           "Name": "Vary",
@@ -2174,7 +2174,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QFbtus7WW3YL+FDpsCNCa7fbdBl3WYf1h6MzslfePzE="
+          "Value": "sha256-d4YcPVq5zaQsBDk2V7ysyH6MziqHgHVbiAdhTN3hRgE="
         }
       ]
     },
@@ -23789,17 +23789,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2B2J/xhDPzWpwAYpY7AuuJs71c3auG6yZoYiKZgo7FU=\""
+          "Value": "\"CCSrCIf7cY7OtwZGciuBJAiPLLTr/qxsQb49SddZNZQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Feb 2026 01:40:01 GMT"
+          "Value": "Sat, 14 Feb 2026 02:06:31 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2B2J/xhDPzWpwAYpY7AuuJs71c3auG6yZoYiKZgo7FU="
+          "Value": "sha256-CCSrCIf7cY7OtwZGciuBJAiPLLTr/qxsQb49SddZNZQ="
         }
       ]
     },
@@ -23810,7 +23810,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000329924117"
+          "Quality": "0.000328839198"
         }
       ],
       "ResponseHeaders": [
@@ -23828,7 +23828,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3030"
+          "Value": "3040"
         },
         {
           "Name": "Content-Type",
@@ -23836,15 +23836,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xrC5w9X5KNnKLtqLokgBvRbbtTf1/LnpmczvdOLA5Mw=\""
+          "Value": "\"AiN0oFImINxx9NyAJBcwOJBvhwyWdviVUHZDgbpJhak=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"2B2J/xhDPzWpwAYpY7AuuJs71c3auG6yZoYiKZgo7FU=\""
+          "Value": "W/\"CCSrCIf7cY7OtwZGciuBJAiPLLTr/qxsQb49SddZNZQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Feb 2026 01:40:01 GMT"
+          "Value": "Sat, 14 Feb 2026 02:06:31 GMT"
         },
         {
           "Name": "Vary",
@@ -23854,7 +23854,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2B2J/xhDPzWpwAYpY7AuuJs71c3auG6yZoYiKZgo7FU="
+          "Value": "sha256-CCSrCIf7cY7OtwZGciuBJAiPLLTr/qxsQb49SddZNZQ="
         }
       ]
     },
@@ -23891,15 +23891,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5xckuvJx4W2wf8wu7SBQvVSXeY/tR8660MrAO+PY/F4=\""
+          "Value": "\"Nwn1/fhg93g7uGTnNQ+ura/Omb0Dgp+jhOZ1l+K2xxw=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"2B2J/xhDPzWpwAYpY7AuuJs71c3auG6yZoYiKZgo7FU=\""
+          "Value": "W/\"CCSrCIf7cY7OtwZGciuBJAiPLLTr/qxsQb49SddZNZQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Feb 2026 01:40:01 GMT"
+          "Value": "Sat, 14 Feb 2026 02:06:31 GMT"
         },
         {
           "Name": "Vary",
@@ -23909,7 +23909,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2B2J/xhDPzWpwAYpY7AuuJs71c3auG6yZoYiKZgo7FU="
+          "Value": "sha256-CCSrCIf7cY7OtwZGciuBJAiPLLTr/qxsQb49SddZNZQ="
         }
       ]
     },
@@ -23932,7 +23932,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3030"
+          "Value": "3040"
         },
         {
           "Name": "Content-Type",
@@ -23940,11 +23940,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xrC5w9X5KNnKLtqLokgBvRbbtTf1/LnpmczvdOLA5Mw=\""
+          "Value": "\"AiN0oFImINxx9NyAJBcwOJBvhwyWdviVUHZDgbpJhak=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Feb 2026 01:40:01 GMT"
+          "Value": "Sat, 14 Feb 2026 02:06:31 GMT"
         },
         {
           "Name": "Vary",
@@ -23954,7 +23954,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xrC5w9X5KNnKLtqLokgBvRbbtTf1/LnpmczvdOLA5Mw="
+          "Value": "sha256-AiN0oFImINxx9NyAJBcwOJBvhwyWdviVUHZDgbpJhak="
         }
       ]
     },
@@ -23985,11 +23985,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5xckuvJx4W2wf8wu7SBQvVSXeY/tR8660MrAO+PY/F4=\""
+          "Value": "\"Nwn1/fhg93g7uGTnNQ+ura/Omb0Dgp+jhOZ1l+K2xxw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Feb 2026 01:40:01 GMT"
+          "Value": "Sat, 14 Feb 2026 02:06:31 GMT"
         },
         {
           "Name": "Vary",
@@ -23999,7 +23999,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-5xckuvJx4W2wf8wu7SBQvVSXeY/tR8660MrAO+PY/F4="
+          "Value": "sha256-Nwn1/fhg93g7uGTnNQ+ura/Omb0Dgp+jhOZ1l+K2xxw="
         }
       ]
     },
