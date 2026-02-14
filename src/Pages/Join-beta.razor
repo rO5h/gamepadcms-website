@@ -1,0 +1,97 @@
+﻿@page "/join-beta"
+
+@using System.ComponentModel.DataAnnotations
+
+@inject GamePadCMS_Website.Services.ApiCaller ApiCaller
+
+<h2 class="form-title">Join the Beta Program</h2>
+<p class="form-subtitle">Sign up to get early access and help shape the future of GamePadCMS.</p>
+
+<div class="beta-form">
+    <EditForm Model="@betaForm" OnValidSubmit="@HandleValidSubmit">
+        <DataAnnotationsValidator />
+
+        <div class="form-group">
+            <label for="name">Full Name *</label>
+            <InputText id="name" class="form-control" @bind-Value="betaForm.Name" />
+            <ValidationMessage For="@(() => betaForm.Name)" />
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email Address *</label>
+            <InputText id="email" class="form-control" @bind-Value="betaForm.Email" />
+            <ValidationMessage For="@(() => betaForm.Email)" />
+        </div>
+
+        <div class="form-group">
+            <label for="company">Company / Studio (optional)</label>
+            <InputText id="company" class="form-control" @bind-Value="betaForm.Company" />
+            <ValidationMessage For="@(() => betaForm.Company)" />
+        </div>
+
+        <div class="form-group">
+            <label for="role">Role (optional)</label>
+            <InputText id="role" class="form-control" @bind-Value="betaForm.Role" />
+            <ValidationMessage For="@(() => betaForm.Role)" />
+        </div>
+
+        <div class="form-group">
+            <label for="notes">How do you plan to use GamePadCMS? (optional)</label>
+            <InputTextArea id="notes"
+            class="form-control"
+            rows="3"
+            maxlength="200"
+            @bind-Value="betaForm.Notes">
+            </InputTextArea>
+            <span class="char-counter">@notesCounter/200</span>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">
+            Request Access
+        </button>
+    </EditForm>
+</div>
+
+@code {
+    private BetaForm betaForm = new();
+
+    private int notesCounter => betaForm.Notes?.Length ?? 0;
+
+    private async Task HandleValidSubmit()
+    {
+        var url = "api/user/request-beta";        
+        var result = await ApiCaller.PostAsync(url, null, default);
+
+        if (result.IsSuccess)
+        {
+            Console.WriteLine("success");
+            Console.WriteLine(result.ErrorMessage);
+        }
+        else
+        {
+            Console.WriteLine(result.ErrorMessage);
+        }
+    }
+
+    public class BetaForm
+    {
+        [Required(ErrorMessage = "Name is required")]
+        [MaxLength(50, ErrorMessage = "Max 50 characters")]
+        public string Name { get; set; } = "";
+
+        [Required(ErrorMessage = "Email is required")]
+        [EmailAddress(ErrorMessage = "Invalid email format")]
+        [MaxLength(50, ErrorMessage = "Max 50 characters")]
+        public string Email { get; set; } = "";
+
+        [MaxLength(50, ErrorMessage = "Max 50 characters")]
+        public string? Company { get; set; }
+
+        [MaxLength(50, ErrorMessage = "Max 50 characters")]
+        public string? Role { get; set; }
+
+        [StringLength(200)]
+        public string? Notes { get; set; }
+    }
+}

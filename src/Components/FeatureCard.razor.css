@@ -1,0 +1,46 @@
+﻿/* Feature Card */
+.feature-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    outline: 1px solid #00000016; /* width + style + color */
+    text-align: center;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+    justify-self: center; /* center inside grid cell */
+    align-content:center;
+    justify-items:center;
+}
+
+
+.feature-icon {
+    width: 3rem;
+    height: 3rem;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f111a2b;
+    border-radius: 0.3rem;    
+}
+    /* Target the inner icon (img or svg) */
+    .feature-icon img,
+    .feature-icon svg {
+        width: 60%; /* smaller relative to container */
+        height: 60%;
+        object-fit: contain; /* ensures it doesn’t stretch */
+    }
+
+
+.feature-title {
+    font-family: 'Space Mono', monospace;
+    color: #0f111a;
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin:1rem 1rem 1rem 1rem;
+   
+}
+
+.feature-description {
+    font-family: 'Space Mono', monospace;
+    font-size: 1rem;
+    color: #6B7280;
+}

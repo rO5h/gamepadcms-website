@@ -1,0 +1,26 @@
+﻿@namespace GamePadCMS_Website.Components
+
+<div class="plugin-card">
+    <img src="@Logo" alt="@EngineName Logo" class="plugin-logo" />
+
+    @if (IsDisabled)
+    {
+        <button class="btn btn-primary disabled" disabled>
+            Download Plugin
+        </button>
+    }
+    else
+    {
+        <a href="@DownloadUrl" target="_blank" class="btn btn-primary">
+            Download Plugin
+        </a>
+    }
+</div>
+
+
+@code {
+    [Parameter] public string? EngineName { get; set; }
+    [Parameter] public string? Logo { get; set; }
+    [Parameter] public string? DownloadUrl { get; set; }
+    [Parameter] public bool IsDisabled { get; set; }
+}

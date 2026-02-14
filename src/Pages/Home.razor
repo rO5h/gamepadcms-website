@@ -1,0 +1,110 @@
+﻿@page "/"
+
+@inject NavigationManager Navigation
+
+@using GamePadCMS_Website.Components
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-container">
+        <h1 class="hero-title">
+            Content Management
+            <br />
+            <span class="hero-accent">
+                Built for Unity Apps
+            </span>
+        </h1>
+
+        <p class="hero-subtitle">
+        <p class="hero-subtitle">
+            Update text, images, audio, video, and JSON from a client-friendly dashboard —
+            no rebuilds, no redeploys. Perfect for any interactive experience that needs easy content updates.
+        </p>
+
+
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">
+                Contact Us
+                <img src="images/arrow-right.png" alt="Arrow Right" class="icon" />
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- Features Grid -->
+<section class="features">
+    <div class="features-container">
+        <h2 class="features-title">
+            Features
+        </h2>
+        <p class="features-subtitle">
+            Manage content and configuration for apps built using Unity
+        </p>
+
+        <div class="features-grid">
+            @* Repeatable Feature Card *@
+            <FeatureCard Icon="images/bolt.png" Title="Instant Updates" Description="Change content from the dashboard — see changes live in-app." />
+            <FeatureCard Icon="images/db.png" Title="All Content in One Place" Description="Central dashboard for managing media, text, and configuration across different projects and organizations." />
+            <FeatureCard Icon="images/group.png" Title="Role-Based Access" Description="Assign roles so teams and clients only see what they should." />
+            <FeatureCard Icon="images/code.png" Title="Multi-Platform Unity SDK" Description="Drop-in plugin fetches content at runtime for WebGL, mobile, and desktop apps." />
+            <FeatureCard Icon="images/cloud-done.png" Title="Cloud Storage" Description="Your Google Drive. You control access. CMS just delivers." />
+            <FeatureCard Icon="images/hosting.png" Title="Flexible Hosting" Description="Deploy on Google Cloud Run, your own server, or run locally with Docker and PostgreSQL." />
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Workflow Section-->
+<section class="workflow">
+    <div class="workflow-container">
+        <h2 class="workflow-title">How It Works</h2>
+        <p class="workflow-subtitle">
+            Connect your cloud storage, link with game engine plugins, and deliver content seamlessly to your applications.
+        </p>
+
+        <div class="workflow-image">
+            <img src="images/workflow-diagram.png" alt="Workflow diagram showing CMS pipeline" />
+        </div>
+    </div>
+</section>
+
+<!-- Plugin Downloads Section -->
+<section class="plugins">
+    <div class="plugins-container">
+        <h2 class="plugins-title">Download SDKs</h2>
+        <p class="plugins-subtitle">
+            Get started by downloading our plugins for your favorite game engine.
+        </p>
+        <button disabled class="btn btn-outline">
+            Unity Plugin
+        </button><br> <br>
+        <button disabled class="btn btn-outline">
+            View Documentation
+        </button>
+
+    
+
+        @* <div class="plugins-grid"> *@
+        @*     <PluginCard EngineName="Unity" IsDisabled=false Logo="images/unity-logo.png" DownloadUrl="https://example.com/unity-plugin" /> *@
+        @*     <PluginCard EngineName="Unreal Engine" IsDisabled=true Logo="images/unreal-logo.png" DownloadUrl="https://example.com/unreal-plugin" /> *@
+        @*     <PluginCard EngineName="Godot" IsDisabled=true Logo="images/godot-logo.png" DownloadUrl="https://example.com/godot-plugin" /> *@
+        @* </div> *@
+    </div>
+</section>
+
+
+
+
+
+
+@code {
+
+    private void GoToJoinBeta()
+    {
+        Navigation.NavigateTo("/join-beta");
+    }
+}
