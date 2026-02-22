@@ -1,6 +1,7 @@
 ﻿@page "/"
 
 @inject NavigationManager Navigation
+@inject IJSRuntime JS
 
 @using GamePadCMS_Website.Components
 
@@ -103,8 +104,10 @@
 
 @code {
 
-    private void GoToJoinBeta()
-    {
-        Navigation.NavigateTo("https://dashboard.gamepadcms.com/request-earlyaccess");
-    }
+
+        private async Task GoToJoinBeta()
+        {
+            await JS.InvokeVoidAsync("open", "https://dashboard.gamepadcms.com/request-earlyaccess", "_blank");
+        }
+    
 }
