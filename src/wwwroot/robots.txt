@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Allow: /_framework/
+
+Sitemap: https://www.gamepadcms.com/sitemap.xml
