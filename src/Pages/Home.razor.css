@@ -194,5 +194,79 @@
 
 
 
+.video-showcase {
+    padding: 60px 20px;
+    background-color: #f9f9f9; /* Or match your theme background */
+    text-align: center;
+}
+
+.video-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.video-title {
+    font-family: 'Space Mono', monospace;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;   
+}
+
+.video-subtitle {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.125rem;
+    color: #6B7280;
+    margin-bottom: 2rem;
+}
+
+.video-grid {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto; /* Allows scrolling on mobile */
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.video-item {
+    flex: 1;
+    min-width: 600px; /* Prevents videos from getting too small */
+    max-width: 800px;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9; /* Forces 16:9 ratio */
+    background: #000;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+    .video-wrapper iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+.video-label {
+    font-family: 'Space Mono', monospace;
+    margin-top: 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .video-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video-item {
+        width: 100%;
+    }
+}
+
+
 
 
