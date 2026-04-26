@@ -1,9 +1,9 @@
 {
   "mainAssemblyName": "GamePadCMS_Website",
   "resources": {
-    "hash": "sha256-zE7qmSqmRslXJHavkTjRw7GkUoE6GORJl1UQXv9Sku4=",
+    "hash": "sha256-551DlzOa3O0AWJo+H4UatnyxlmDmiB7KMaw8IDKCY3c=",
     "fingerprinting": {
-      "GamePadCMS_Website.acdsh3w0ta.wasm": "GamePadCMS_Website.wasm",
+      "GamePadCMS_Website.rcveemd7pi.wasm": "GamePadCMS_Website.wasm",
       "Microsoft.AspNetCore.Components.53tm4fpu5g.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.jcafy9fy3t.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
       "Microsoft.AspNetCore.Components.WebAssembly.0prlth0hc4.wasm": "Microsoft.AspNetCore.Components.WebAssembly.wasm",
@@ -63,7 +63,7 @@
       "System.Runtime.InteropServices.JavaScript.0tgicm7vjk.wasm": "sha256-bAbPaONHne7R1hItHoY8/SYWlDb84JZQ1cxd1Y+tJn0="
     },
     "assembly": {
-      "GamePadCMS_Website.acdsh3w0ta.wasm": "sha256-is++0Nnc4oMSu4GY7zpVIM1VFIrwSMtr3kim+vAMsd0=",
+      "GamePadCMS_Website.rcveemd7pi.wasm": "sha256-xfPruk5nEqmncGW+vD7Aqquugymw7d8WyBZtMN/+wv4=",
       "Microsoft.AspNetCore.Components.53tm4fpu5g.wasm": "sha256-P5MwPCJEvQChQ9hD+hu5NV71XW/OpsS3mTMB5oHlSZs=",
       "Microsoft.AspNetCore.Components.Web.jcafy9fy3t.wasm": "sha256-3YfAdOFRxy/yg6EiHZz1UHm2nRrqUQysiuULUI2wQzk=",
       "Microsoft.AspNetCore.Components.WebAssembly.0prlth0hc4.wasm": "sha256-jB/Gf1i7eXuQqAzqY/ZONe+hrW3x94pYZlL+G0Cv7Co=",
